@@ -37,6 +37,30 @@
             "name": "postgres1",
             "database": "talently",
             "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "username": "postgres",
+            "database": "online_shop",
+            "name": "online_shop"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "online-shop",
+            "username": "root",
+            "database": "online_shop",
+            "askForPassword": true
         }
     ]
 }
