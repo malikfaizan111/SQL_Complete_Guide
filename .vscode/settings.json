@@ -61,6 +61,30 @@
             "username": "root",
             "database": "online_shop",
             "askForPassword": true
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "username": "postgres",
+            "database": "sales_example",
+            "name": "sales_example"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "sales_example",
+            "database": "sales_example",
+            "username": "root",
+            "askForPassword": true
         }
     ]
 }
